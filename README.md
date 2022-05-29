@@ -96,7 +96,38 @@ from gensim.models import Word2Vec
 
 
 ### 프로젝트 결과
-- 
+-모든 입력 예시  
+<img width="664" alt="스크린샷 2022-05-29 오후 8 21 59" src="https://user-images.githubusercontent.com/62610032/170867242-dc2b38ef-333f-4eae-a0d6-f40c8e1e4645.png">
+
+
+- 친구의 대화 내용 분석 by khaiii
+![image](https://user-images.githubusercontent.com/62610032/170866912-f4a82e72-b89e-4f08-a03a-de83ac67ebcb.png)
+
+
+- 친구의 대화 내용 분석 by Komoran
+![image](https://user-images.githubusercontent.com/62610032/170866920-0934fa83-a2b1-4956-b72c-5d588e38483c.png)
+
+
+- 나의 대화 내용 분석 by khaiii
+![image](https://user-images.githubusercontent.com/62610032/170866932-da3c538c-06e0-4e8f-a5bf-ad67fb99e44a.png)
+
+
+- 나의 대화 내용 분석 by Komoran
+![image](https://user-images.githubusercontent.com/62610032/170867040-fa3beff4-6e7f-4f10-b38d-9d44889671e7.png)
+
+
+- 우리의 대화 내용 분석 by khaiii
+![image](https://user-images.githubusercontent.com/62610032/170867047-44a047b7-819f-42d4-be57-a38b3321fdb4.png)
+
+
+- 우리의 대화 내용 분석 by Komoran
+![image](https://user-images.githubusercontent.com/62610032/170867054-5bba1162-8785-42a5-9b8f-db8b9e93ce4b.png)
+
+
+- 우리의 욕설 분석
+<img width="1006" alt="스크린샷 2022-05-29 오후 9 03 34" src="https://user-images.githubusercontent.com/62610032/170867234-8f491c52-1441-4fb3-9cc8-d4fd68eaab1b.png">
+
+
 
 
 
