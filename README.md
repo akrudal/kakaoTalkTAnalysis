@@ -9,6 +9,7 @@ For NLP Project,  KakaoTalk analysis, especially how much you use profanity
 4. 필요 데이터 : pc 카톡에서 채팅방 하나를 들어가 대화 -> 대화내용 내보내기 (.txt 또는 .csv) 를 선택한다.
 5. 데이터 리스트 : 비속어, 욕설 등에 대한 리스트를 사전에 모아둘 예정입니다. (파일 이름: ** my_dictionary.txt)
 6. 개발 환경 : Mac M1 Monterey 12.0.1
+7. 소스 코드 : https://github.com/akrudal/kakaoTalkTAnalysis/edit/main
 
 ### 사용된 오픈소스 및 라이브러리
 
@@ -85,8 +86,33 @@ from gensim.models import Word2Vec
 ### 프로젝트 파일 및 폴더
 - my_dictionary.txt : 크롤링과 github, 다운로드 된 리스트들을 취합하여 만든 나만의 욕설 리스트다. 모든 욕설 리스트를 NNP로 분류하여 사전 dictionary에 사용할 수 있게 하였다.
 - make_my_dictionary.ipynb : my_dictionary.txt 파일을 생성한다. 크롤링과 github, 다운로드 된 리스트들을 취합하였고, 모든 욕설을 NNP로 분류 할 수 있게 코드를 작성하였다.
+- 바른말 길잡이.ipynb : 자연어 처리를 통해 친구와 자신의 대화 wordcloud를 생성하며, 욕설을 얼마나 사용하였는지 등의 분석 결과를 볼 수 있다.
+- README.md : 본 파일로, 프로젝트의 전반적인 소개를 담고 있다.
+- clone_for_khaiii : khaiii를 통한 자연어처리를 하기 위해 khaiii를 clone한 것이다.
+- clone_for_hanspell : 맞춤법 검사를 하기 위해 hanspell을 clone한 것이다.
+- download: 인터넷에서 다운로드 한 비속어 리스트 2개를 담아놓은 폴더이다.
+- chat : 자신과 친구가 나눈 대화 내용을 포함한다.
+- Image : wordcloud의 이미지 배경을 포함한다.
+
+
+### 프로젝트 결과
+- 
+
+
 
 ### 프로젝트 진행 중에 생긴 문제
 - 5/25(수) issue와 PR 연결하는 과정에서 꼬인 듯 하다. 다음 commit부터 해결 필수  (의도하지 않았던 파일들이 추가되었고, 의도한 commit대로 진행되지 않았다)
 - 5/26(목) mac에서 다운로드 하면 .csv 파일로 저장이 되는 것을 알게되었다. 기존 .txt만 고려하였기 때문에 전체적인 수정이 필요
 - 5/27(금) 프로젝트 제출에 앞서 모든 결과와 데이터에 친구 이름이 포함된다는 것을 알게 되었다... 처리 방안이 있는지 고민해봐야겠다.
+
+### 참고 사이트
+[욕설/나무위키](https://namu.wiki/w/%EC%9A%95%EC%84%A4/%ED%95%9C%EA%B5%AD%EC%96%B4)  
+[나무위키 크롤링](https://speedanddirection.tistory.com/93)  
+[github list](https://raw.githubusercontent.com/organization/Gentleman/master/resources/badwords.json)  
+[리스트 다운로드1](https://jizard.tistory.com/288#google_vignette)  
+[리스트 다운로드2](https://blog.naver.com/dpszeagal33/222169508861)  
+[카카오톡 wordcloud](https://haerong22.tistory.com/70)  
+[khaiii 사용법](https://sy-log.tistory.com/59)  
+[사용자 사전](https://komorandocs.readthedocs.io/ko/latest/manual/manual.html)
+
+
